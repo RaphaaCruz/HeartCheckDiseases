@@ -314,11 +314,3 @@ print(f'accuracy_score: {accuracy_score(y_test, y_bsvc)}')
 print(f'f1_score: {f1_score(y_test, y_bsvc)}')
 print(f'recall_score: {recall_score(y_test, y_bsvc)}')
 plot_roc_curve(svc_bayes, X_test, y_test)
-
-!cd /content/drive/MyDrive/D1G05/Assignment18
-
-!git init /content/drive/MyDrive/D1G05/Assignment18
-
-!git add /content/drive/MyDrive/D1G05/Assignment18/Assignment_18.ipynb
-
-!git status /content/drive/MyDrive/D1G05/Assignment18/
